@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    position: relative;
+}
+.header{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.055);
+    top: 0px;
+    right: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 80px;
+    overflow: hidden;
+    padding: 5px 50px;
+    border: solid 1px rgba(128, 128, 128, 0.285);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side-Header{
+    display: flex;
+    width: fit-content;
+    position: relative;
+}
+.left-side-Header P{
+    position: absolute;
+    color: rgb(0, 128, 126);
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    top: 40px;
+    right: -12px;
+}
+
+.logo{
+    width: 200px;
+    padding: 0;
+}
+.middle-side-Header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+}
+
+.middle-side-Header li{
+    color: rgb(3, 192, 188);
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+.header-CTA-btn{
+    padding: 19px 20px;
+    display: flex;
+    justify-self: end;
+    background-color:  rgb(3, 192, 188);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    align-items: center;
+    height: 30px;
+}
