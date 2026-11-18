@@ -1,0 +1,89 @@
+.Hero{
+    margin-top: 200px;
+    padding-inline: 65px;
+    display: flex;
+    column-gap: 100px;
+}
+.hero-p1{
+    font-family: 'Lucida Sans';
+    color: rgba(191, 191, 191, 0.774);
+    font-size: 18px;
+}
+.hero-p1 span{
+    font-family: 'Lucida Sans';
+    color: rgba(233, 231, 231, 0.91);
+    font-size: 26px;
+}
+.hero-p2 {
+    font-family: 'Lucida Sans';
+    font-weight: 900;
+    color: rgba(233, 231, 231, 0.91);
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 120px;
+    color: rgb(3, 192, 188);
+}
+.download-cv-btn{
+    padding: 8px 22px;
+    background-color: transparent;
+    color: rgba(191, 191, 191, 0.774);
+    border-radius: 5px;
+    margin-left: 10px;
+    border: solid 2px rgba(191, 191, 191, 0.774);
+}
+.hero-achievments-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.09);
+    width: fit-content;
+    margin-top: 50px;
+    padding: 12px 15px;
+}
+.hero-achievments-container-col1{
+    border-right: solid gray;
+    padding: 0px 15px;
+}
+.hero-achievments-container-col-p1{
+    margin: 0px;
+    color: rgb(3, 192, 188);
+    font-family: 'Lucida Sans';
+}
+.hero-achievments-container-col-p2{
+    margin: 0px;
+    margin-top: 2px;
+    font-family: 'Lucida Sans';
+}
+.hero-achievments-container-col2{
+    padding: 0px 15px;
+}
+.image-section{
+    margin-top: 0px;
+    display: flex;
+    align-items: end;
+    height: 620px;
+    width: 550px;
+    overflow: hidden;
+    position: absolute;
+    right: 150px;
+    top: 0;
+    border-radius: 0 0 275px 275px;
+}
+.image-section-layer{
+    border-radius: 305px;
+    background-color: rgba(255, 255, 255, 0.034);
+    height: 550px;
+    width: 550px;
+    z-index: 0;
+    position: relative;
+}
+.image-section img{
+    height: 660px;
+    object-fit: contain;
+    position: absolute;
+    object-fit: contain;
+    bottom: -5px;
+    filter: grayscale(200%) brightness(100%) contrast(2.8);
+    z-index: 20;
+}
